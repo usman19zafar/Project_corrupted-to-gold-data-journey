@@ -110,8 +110,4 @@ This README now:
 - Shows **technical and organizational value**  
 
 ---
-
-If you want, I can also **write the `docs/data_issues_catalog.md` and `docs/recovery_decisions.md` templates** so your repo is fully ready for GitHub push and looks **staff-level polished**.  
-
-Do you want me to do that next?
 ```
