@@ -10,7 +10,8 @@ The corruption was generated using a deterministic script (`dirty_data_generator
 - Duplicate or conflicting records  
 - Nulls in key columns  
 - Non-ASCII characters and encoding noise  
-- Header rows mid-file and schema drift  
+- Header rows mid-file and schema drift
+- Missing Values even for primary key  
 
 This script ensures that **every corruption observed in the raw preview is reproducible**, so no issue is left undocumented.
 ```
