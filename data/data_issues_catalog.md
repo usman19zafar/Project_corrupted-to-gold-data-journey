@@ -1,7 +1,10 @@
 ```yaml
 ### Dirty Data Generation
 
-The raw CSV preview included in this repository was intentionally corrupted.  
+The raw CSV preview included in this repository was intentionally corrupted.
+
+“The source data wasn’t just dirty — it was effectively corrupted and required full reconstruction before processing.”  
+
 The corruption was generated using a deterministic script (`dirty_data_generator.py`) to simulate real-world issues such as:
 
 - Mixed delimiters (`;`, `,`, `\t`)  
