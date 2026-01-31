@@ -70,8 +70,7 @@ corrupted-to-gold-data-journey/
 ├── docs/
 │ ├── data_issues_catalog.md
 │ └── recovery_decisions.md
-└── diagrams/
-└── raw_to_gold_flow.png (optional)
+└── raw_to_gold_flow.png 
 ```
 ```yaml
 - **data/raw_sample/**: Demonstrates real corruption, delimiter shifts, broken quoting, and schema drift.  
