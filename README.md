@@ -1,6 +1,10 @@
 # Project_corrupted-to-gold-data-journey
 Trace the journey of corrupted data through deterministic cleaning and validation to produce gold-level datasets for reliable analytics.
 
+```yaml code
+“In today’s fast-paced world of possibilities, what we can do is often not limited by our skills, but by compliance. Compliance is not a limitation — it is the foundation of governance and trust.”
+```
+
 # Corrupted-to-Gold Data Journey
 
 ## Overview
@@ -11,6 +15,12 @@ Trace the journey of corrupted data through deterministic cleaning and validatio
 ```
 
 ## Pipeline Overview
+
+This project also demonstrates **MDM principles** in practice:
+
+    - Silver layer acts as the **“trusted single source of truth”** for customers, orders, and products.
+    - Deduplication, survivorship scoring, and standardization ensure each entity (customer, product, order) has a **unique, reliable representation**.
+    - Gold layer aggregates these entities into fact and summary tables without compromising the underlying MDM quality.
 
 ```code
 Raw (Corrupted CSVs)
@@ -76,6 +86,7 @@ corrupted-to-gold-data-journey/
 ## Skills Demonstrated
 
 - Forensic root-cause diagnosis of corrupted data  
+- Application of **MDM concepts**: entity resolution, deduplication, and creating a trusted silver-layer dataset
 - Deterministic delimiter normalization and schema reconstruction  
 - Deduplication, survivorship scoring, and structured recovery  
 - Handling missing and late-arriving values ethically  
@@ -88,7 +99,9 @@ corrupted-to-gold-data-journey/
 
 - **No guessing:** Missing or ambiguous values are preserved, not filled arbitrarily.  
 - **Traceable transformations:** Every step is documented and reversible.  
-- **Non-authoritative outputs:** Gold-layer datasets exist solely for validation, not production analytics.  
+- **Non-authoritative outputs:** Gold-layer datasets exist solely for validation, not production analytics.
+- Aligns with **MDM best practices**: no arbitrary merging or guessing of entity attributes; every decision is traceable.
+  
 
 ---
 ```
@@ -104,10 +117,9 @@ It highlights engineering judgment over convenience, and prepares you to handle 
 
 This README now:  
 
-- Reads **professional for orgs**  
-- Explains **raw → silver → gold journey**  
-- Emphasizes **ethical, traceable decisions**  
-- Shows **technical and organizational value**  
+- Explains raw → silver → gold journey  
+- Emphasizes ethical, traceable decisions  
+- Shows technical and organizational value  
 
 ---
 ```
