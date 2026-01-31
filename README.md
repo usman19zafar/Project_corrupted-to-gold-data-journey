@@ -1,5 +1,5 @@
 # Project_corrupted-to-gold-data-journey
-Trace the journey of corrupted data through deterministic cleaning and validation to produce gold-level datasets for reliable analytics.
+Trace the journey of corrupted data through deterministic cleaning and validation to produce gold-level datasets for reliable analytics. CORE CONCEPT, if i tried to clean the whole data to organizational useable standards by droping rows than perfectly clean data will be less than 10 row, if i get lucky!
 
 ```yaml code
 “In today’s fast-paced world of possibilities, what we can do is often not limited by our skills, but by compliance. Compliance is not a limitation — it is the foundation of governance and trust.”
