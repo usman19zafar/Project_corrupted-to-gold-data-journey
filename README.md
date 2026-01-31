@@ -3,10 +3,10 @@ Trace the journey of corrupted data through deterministic cleaning and validatio
 
 CORE CONCEPT 
 ```yaml
-The dataset wasn’t just messy — it was so structurally corrupted that if I applied strict organizational data‑quality standards and simply dropped invalid rows, I would be left with fewer than ten usable records. In other words, “cleaning” by deletion would destroy the dataset.
-To restore it to a professional, analytics‑ready state, I had to rebuild structure, normalize fields, and apply deterministic rules. But even with advanced cleansing, achieving a fully perfect dataset without introducing assumptions, personal bias, or subjective judgment is impossible when the source is this degraded.
-The goal wasn’t perfection — the goal was maximum correctness without guessing, using transparent, rule‑based transformations instead of arbitrary decisions.
-“In today’s fast-paced world of possibilities, what we can do is often not limited by our skills, but by compliance. Compliance is not a limitation — it is the foundation of governance and trust.”
+--The dataset wasn’t just messy — it was so structurally corrupted that if I applied strict organizational data‑quality standards and simply dropped invalid rows, I would be left with fewer than ten usable records. In other words, “cleaning” by deletion would destroy the dataset.
+--To restore it to a professional, analytics‑ready state, I had to rebuild structure, normalize fields, and apply deterministic rules. But even with advanced cleansing, achieving a fully perfect dataset without introducing assumptions, personal bias, or subjective judgment is impossible when the source is this degraded.
+--The goal wasn’t perfection — the goal was maximum correctness without guessing, using transparent, rule‑based transformations instead of arbitrary decisions.
+--In today’s fast-paced world of possibilities, what we can do is often not limited by our skills, but by compliance. Compliance is not a limitation — it is the foundation of governance and trust.
 ```
 
 # Corrupted-to-Gold Data Journey
